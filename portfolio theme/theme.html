@@ -1,0 +1,901 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta id="siteViewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <title>Baza &#8211; Creative MultiPurpose WordPress Theme</title>
+<meta name='robots' content='max-image-preview:large' />
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="YY7xcOCVFUkk0p2jMhB_FG9Zrg9MRtLPs8iW5SlXl_s" />
+<script>window._wca = window._wca || [];</script>
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Baza &raquo; Feed" href="https://demo.bazatheme.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Baza &raquo; Comments Feed" href="https://demo.bazatheme.com/comments/feed/" />
+<style id='jetpack-sharing-buttons-style-inline-css' type='text/css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://demo.bazatheme.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://demo.bazatheme.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=8.8.5' type='text/css' media='all' />
+<style id='woocommerce-layout-inline-css' type='text/css'>
+
+	.infinite-scroll .woocommerce-pagination {
+		display: none;
+	}
+</style>
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://demo.bazatheme.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=8.8.5' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://demo.bazatheme.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=8.8.5' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='inter-css' href='https://demo.bazatheme.com/wp-content/themes/baza/assets/fonts/inter.css?ver=1.30' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://demo.bazatheme.com/wp-content/themes/baza/assets/css/bootstrap.css?ver=1.30' type='text/css' media='all' />
+<link rel='stylesheet' id='baza-css' href='https://demo.bazatheme.com/wp-content/themes/baza/style.css?ver=1.30' type='text/css' media='all' />
+<style id='baza-inline-css' type='text/css'>
+:root {
+--primary-color: #155ce7;
+--primary-links-hover-color: #20292f;
+--primary-bg-color: #f6f9fe;
+--header-bg-color: #f8f9fa;
+--footer-bg-color: #f8f9fa;
+--primary-dark-color: #20292f;
+--title-color: #20292f;
+--fw-title-color: #0a2540;
+--btn-bg-color: #155ce7;
+--btn-hover-color: #124ec1;
+--txt-select-bg-color: #e0e7fa;
+--logo-height: 40px;
+}#main-header {position: relative; margin-bottom: 32px;}#site-footer {position: relative;}@media (min-width: 1200px) and (max-width: 1490px) {:root {zoom: 0.85;}}#header-wave {margin-bottom: -1px; width: 100%;}#magic-search .search-submit {display: none;}.onsale .onsale-svg {height: 100%;}#header-wave * {fill: transparent;} @media (max-width: 1199px){#header-wave {height: 20px;} :root #main-header{margin-bottom: 32px;}} @media (min-width: 1200px){#header-wave {height: 45px;} :root #main-header{padding-top: 50px; margin-bottom: 50px;}}.header-icons {display: none;} @media (max-width: 1199px) {.header-info {margin-top: 1rem;}}
+</style>
+<link rel='stylesheet' id='elementor-icons-css' href='https://demo.bazatheme.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://demo.bazatheme.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.21.8' type='text/css' media='all' />
+<style id='elementor-frontend-inline-css' type='text/css'>
+.elementor-kit-8{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}
+.elementor-widget-heading .elementor-heading-title{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-text-editor{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-widget-button .elementor-button{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );background-color:var( --e-global-color-accent );}.elementor-widget-divider{--divider-color:var( --e-global-color-secondary );}.elementor-widget-divider .elementor-divider__text{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-divider.elementor-view-stacked .elementor-icon{background-color:var( --e-global-color-secondary );}.elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon{color:var( --e-global-color-secondary );border-color:var( --e-global-color-secondary );}.elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon svg{fill:var( --e-global-color-secondary );}.elementor-widget-image-box .elementor-image-box-title{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-image-box .elementor-image-box-description{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-icon.elementor-view-stacked .elementor-icon{background-color:var( --e-global-color-primary );}.elementor-widget-icon.elementor-view-framed .elementor-icon, .elementor-widget-icon.elementor-view-default .elementor-icon{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-widget-icon.elementor-view-framed .elementor-icon, .elementor-widget-icon.elementor-view-default .elementor-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-icon-box.elementor-view-stacked .elementor-icon{background-color:var( --e-global-color-primary );}.elementor-widget-icon-box.elementor-view-framed .elementor-icon, .elementor-widget-icon-box.elementor-view-default .elementor-icon{fill:var( --e-global-color-primary );color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-widget-icon-box .elementor-icon-box-title{color:var( --e-global-color-primary );}.elementor-widget-icon-box .elementor-icon-box-title, .elementor-widget-icon-box .elementor-icon-box-title a{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-icon-box .elementor-icon-box-description{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-star-rating .elementor-star-rating__title{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-image-gallery .gallery-item .gallery-caption{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after{border-color:var( --e-global-color-text );}.elementor-widget-icon-list .elementor-icon-list-icon i{color:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-icon-list .elementor-icon-list-text{color:var( --e-global-color-secondary );}.elementor-widget-counter .elementor-counter-number-wrapper{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-counter .elementor-counter-title{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar{background-color:var( --e-global-color-primary );}.elementor-widget-progress .elementor-title{color:var( --e-global-color-primary );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-testimonial .elementor-testimonial-content{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-testimonial .elementor-testimonial-name{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-testimonial .elementor-testimonial-job{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-tabs .elementor-tab-title, .elementor-widget-tabs .elementor-tab-title a{color:var( --e-global-color-primary );}.elementor-widget-tabs .elementor-tab-title.elementor-active,
+					 .elementor-widget-tabs .elementor-tab-title.elementor-active a{color:var( --e-global-color-accent );}.elementor-widget-tabs .elementor-tab-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-tabs .elementor-tab-content{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-accordion .elementor-accordion-icon, .elementor-widget-accordion .elementor-accordion-title{color:var( --e-global-color-primary );}.elementor-widget-accordion .elementor-accordion-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-accordion .elementor-active .elementor-accordion-icon, .elementor-widget-accordion .elementor-active .elementor-accordion-title{color:var( --e-global-color-accent );}.elementor-widget-accordion .elementor-active .elementor-accordion-icon svg{fill:var( --e-global-color-accent );}.elementor-widget-accordion .elementor-accordion-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-accordion .elementor-tab-content{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-toggle .elementor-toggle-title, .elementor-widget-toggle .elementor-toggle-icon{color:var( --e-global-color-primary );}.elementor-widget-toggle .elementor-toggle-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-toggle .elementor-tab-title.elementor-active a, .elementor-widget-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon{color:var( --e-global-color-accent );}.elementor-widget-toggle .elementor-toggle-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-toggle .elementor-tab-content{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-alert .elementor-alert-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-alert .elementor-alert-description{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-text-path{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}
+.elementor-13 .elementor-element.elementor-element-b2573b0 > .elementor-container{max-width:1140px;min-height:850px;}.elementor-13 .elementor-element.elementor-element-b2573b0 .elementor-column-gap-custom .elementor-column > .elementor-element-populated{padding:10px;}.elementor-13 .elementor-element.elementor-element-b2573b0:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-b2573b0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-185.png");background-position:top center;background-size:cover;}.elementor-13 .elementor-element.elementor-element-b2573b0 > .elementor-background-overlay{opacity:0.3;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-13 .elementor-element.elementor-element-b2573b0{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-bc-flex-widget .elementor-13 .elementor-element.elementor-element-45485f8.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-13 .elementor-element.elementor-element-45485f8.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-13 .elementor-element.elementor-element-45485f8 > .elementor-element-populated{padding:0px 50px 0px 0px;}.elementor-13 .elementor-element.elementor-element-ba15a5f{color:#155CE7;font-family:"Inter", Sans-serif;font-size:16px;font-weight:800;text-transform:uppercase;line-height:1.3em;letter-spacing:4px;}.elementor-13 .elementor-element.elementor-element-efd92f9{color:#16252E;font-family:"Inter", Sans-serif;font-size:54px;font-weight:800;line-height:1.2em;}.elementor-13 .elementor-element.elementor-element-b29b28e{color:#555555;font-family:"Nunito", Sans-serif;font-size:18px;font-weight:400;}.elementor-13 .elementor-element.elementor-element-9225cef{margin-top:-2px;margin-bottom:-2px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-a5d6ef7 > .elementor-element-populated{margin:0px 0px 0px -10px;--e-column-margin-right:0px;--e-column-margin-left:-10px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-f533901 .elementor-button{font-family:"Nunito", Sans-serif;font-size:16px;font-weight:700;background-color:#155CE7;border-radius:15px 15px 15px 15px;box-shadow:0px 20px 60px 0px rgba(20.999999999999982, 92.00000000000011, 231, 0.43);padding:15px 50px 15px 50px;}.elementor-13 .elementor-element.elementor-element-f533901 > .elementor-widget-container{margin:10px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-8f5722f > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-028e230{text-align:center;}.elementor-13 .elementor-element.elementor-element-028e230 img{width:100%;}.elementor-13 .elementor-element.elementor-element-028e230 > .elementor-widget-container{margin:0px -40px 0px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-30f9c7d > .elementor-container{max-width:1140px;}.elementor-13 .elementor-element.elementor-element-30f9c7d{margin-top:-94px;margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-48150f9:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-13 .elementor-element.elementor-element-48150f9 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-13 .elementor-element.elementor-element-48150f9 > .elementor-element-populated, .elementor-13 .elementor-element.elementor-element-48150f9 > .elementor-element-populated > .elementor-background-overlay, .elementor-13 .elementor-element.elementor-element-48150f9 > .elementor-background-slideshow{border-radius:30px 30px 30px 30px;}.elementor-13 .elementor-element.elementor-element-48150f9 > .elementor-element-populated{box-shadow:0px 20px 80px 0px rgba(209, 209, 209, 0.5);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:20px 20px 20px 20px;--e-column-margin-right:20px;--e-column-margin-left:20px;padding:40px 40px 40px 40px;}.elementor-13 .elementor-element.elementor-element-48150f9 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-13 .elementor-element.elementor-element-80490be{text-align:left;}.elementor-13 .elementor-element.elementor-element-80490be img{width:64px;}.elementor-13 .elementor-element.elementor-element-5c6f2d2 .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:20px;font-weight:800;}.elementor-13 .elementor-element.elementor-element-862fc09{text-align:left;color:#555555;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:400;}.elementor-13 .elementor-element.elementor-element-862fc09 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-a9eae91{margin-top:-10px;margin-bottom:00px;padding:0px 0px 0px 0px;}.elementor-bc-flex-widget .elementor-13 .elementor-element.elementor-element-71392fe.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-13 .elementor-element.elementor-element-71392fe.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-13 .elementor-element.elementor-element-71392fe > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-9ec5138 .elementor-button{font-family:"Nunito", Sans-serif;font-weight:700;fill:#155CE7;color:#155CE7;background-color:#FFFFFF00;box-shadow:0px 0px 10px 0px rgba(255, 255, 255, 0);padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-9ec5138 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-f7ee3d1:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-13 .elementor-element.elementor-element-f7ee3d1 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-13 .elementor-element.elementor-element-f7ee3d1 > .elementor-element-populated, .elementor-13 .elementor-element.elementor-element-f7ee3d1 > .elementor-element-populated > .elementor-background-overlay, .elementor-13 .elementor-element.elementor-element-f7ee3d1 > .elementor-background-slideshow{border-radius:30px 30px 30px 30px;}.elementor-13 .elementor-element.elementor-element-f7ee3d1 > .elementor-element-populated{box-shadow:0px 20px 80px 0px rgba(209.00000000000006, 209.00000000000006, 209.00000000000006, 0.5);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:20px 20px 20px 20px;--e-column-margin-right:20px;--e-column-margin-left:20px;padding:40px 40px 40px 40px;}.elementor-13 .elementor-element.elementor-element-f7ee3d1 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-13 .elementor-element.elementor-element-ec4a573{text-align:left;}.elementor-13 .elementor-element.elementor-element-ec4a573 img{width:64px;}.elementor-13 .elementor-element.elementor-element-32aeeec .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:20px;font-weight:800;}.elementor-13 .elementor-element.elementor-element-00a9592{text-align:left;color:#555555;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:400;}.elementor-13 .elementor-element.elementor-element-00a9592 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-00b5fd5{margin-top:-10px;margin-bottom:00px;padding:0px 0px 0px 0px;}.elementor-bc-flex-widget .elementor-13 .elementor-element.elementor-element-205b317.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-13 .elementor-element.elementor-element-205b317.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-13 .elementor-element.elementor-element-205b317 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-3e47290 .elementor-button{font-family:"Nunito", Sans-serif;font-weight:700;fill:#155CE7;color:#155CE7;background-color:#FFFFFF00;box-shadow:0px 0px 10px 0px rgba(255, 255, 255, 0);padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-3e47290 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-8244627:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-13 .elementor-element.elementor-element-8244627 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-13 .elementor-element.elementor-element-8244627 > .elementor-element-populated, .elementor-13 .elementor-element.elementor-element-8244627 > .elementor-element-populated > .elementor-background-overlay, .elementor-13 .elementor-element.elementor-element-8244627 > .elementor-background-slideshow{border-radius:30px 30px 30px 30px;}.elementor-13 .elementor-element.elementor-element-8244627 > .elementor-element-populated{box-shadow:0px 20px 80px 0px rgba(209.00000000000006, 209.00000000000006, 209.00000000000006, 0.5);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:20px 20px 20px 20px;--e-column-margin-right:20px;--e-column-margin-left:20px;padding:40px 40px 40px 40px;}.elementor-13 .elementor-element.elementor-element-8244627 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-13 .elementor-element.elementor-element-45442ba{text-align:left;}.elementor-13 .elementor-element.elementor-element-45442ba img{width:64px;}.elementor-13 .elementor-element.elementor-element-49ee501 .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:20px;font-weight:800;}.elementor-13 .elementor-element.elementor-element-a6df793{text-align:left;color:#555555;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:400;}.elementor-13 .elementor-element.elementor-element-a6df793 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-68144b7{margin-top:-10px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-bc-flex-widget .elementor-13 .elementor-element.elementor-element-8872a7f.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-13 .elementor-element.elementor-element-8872a7f.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-13 .elementor-element.elementor-element-8872a7f > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-6bc9e9f .elementor-button{font-family:"Nunito", Sans-serif;font-weight:700;fill:#155CE7;color:#155CE7;background-color:#FFFFFF00;box-shadow:0px 0px 10px 0px rgba(255, 255, 255, 0);padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-6bc9e9f > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-6e3c735 > .elementor-container{max-width:1140px;}.elementor-13 .elementor-element.elementor-element-6e3c735:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-6e3c735 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-157.png");background-position:center right;background-repeat:no-repeat;background-size:160px auto;}.elementor-13 .elementor-element.elementor-element-6e3c735{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:120px 0px 70px 0px;}.elementor-13 .elementor-element.elementor-element-6e3c735 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-13 .elementor-element.elementor-element-d4eed73.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-13 .elementor-element.elementor-element-3f0c45f > .elementor-widget-container{padding:0px 50px 0px 0px;}.elementor-bc-flex-widget .elementor-13 .elementor-element.elementor-element-16c7155.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-13 .elementor-element.elementor-element-16c7155.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-13 .elementor-element.elementor-element-16c7155 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-16c7155 > .elementor-element-populated{padding:10px 50px 10px 10px;}.elementor-13 .elementor-element.elementor-element-956b5db{text-align:left;color:#155CE7;font-family:"Inter", Sans-serif;font-size:16px;font-weight:800;text-transform:uppercase;line-height:1.3em;letter-spacing:4px;}.elementor-13 .elementor-element.elementor-element-956b5db > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 10px 0px;}.elementor-13 .elementor-element.elementor-element-9ac0438 .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:36px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-9ac0438 > .elementor-widget-container{margin:0px 0px 30px 0px;}.elementor-13 .elementor-element.elementor-element-c9daaae{text-align:left;color:#555555;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:400;line-height:1.7em;}.elementor-13 .elementor-element.elementor-element-c9daaae > .elementor-widget-container{margin:0px 0px 30px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-4bd1b4c{margin-top:-2px;margin-bottom:-2px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-04fa98a > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-b462fbf .elementor-button{font-family:"Nunito", Sans-serif;font-size:16px;font-weight:700;background-color:#155CE7;border-radius:15px 15px 15px 15px;box-shadow:0px 20px 60px 0px rgba(20.999999999999982, 92.00000000000011, 231, 0.43);padding:15px 50px 15px 50px;}.elementor-13 .elementor-element.elementor-element-b462fbf > .elementor-widget-container{margin:10px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-163302b > .elementor-container{max-width:1140px;}.elementor-13 .elementor-element.elementor-element-163302b{padding:0px 0px 70px 0px;}.elementor-13 .elementor-element.elementor-element-7070a1c .elementor-counter-number-wrapper{color:#16252E;font-family:"Inter", Sans-serif;font-size:46px;font-weight:800;line-height:2em;}.elementor-13 .elementor-element.elementor-element-7070a1c .elementor-counter-title{color:#555555;font-family:"Nunito", Sans-serif;font-size:18px;font-weight:400;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-6b20422 .elementor-counter-number-wrapper{color:#16252E;font-family:"Inter", Sans-serif;font-size:46px;font-weight:800;line-height:2em;}.elementor-13 .elementor-element.elementor-element-6b20422 .elementor-counter-title{color:#555555;font-family:"Nunito", Sans-serif;font-size:18px;font-weight:400;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-6ef2f74 .elementor-counter-number-wrapper{color:#16252E;font-family:"Inter", Sans-serif;font-size:46px;font-weight:800;line-height:2em;}.elementor-13 .elementor-element.elementor-element-6ef2f74 .elementor-counter-title{color:#555555;font-family:"Nunito", Sans-serif;font-size:18px;font-weight:400;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-3d3b388 > .elementor-container{max-width:1140px;}.elementor-13 .elementor-element.elementor-element-3d3b388:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-3d3b388 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FCFCFD;background-image:url("https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-164.png");background-position:center left;background-repeat:no-repeat;background-size:200px auto;}.elementor-13 .elementor-element.elementor-element-3d3b388{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:90px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-3d3b388 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-13 .elementor-element.elementor-element-eb10f2c > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-eb10f2c > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-1d20826 > .elementor-container{max-width:560px;}.elementor-13 .elementor-element.elementor-element-1d20826{padding:0px 0px 40px 0px;}.elementor-13 .elementor-element.elementor-element-958d975 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-c2e6c1f{text-align:center;color:#155CE7;font-family:"Inter", Sans-serif;font-size:16px;font-weight:800;text-transform:uppercase;line-height:1.3em;letter-spacing:4px;}.elementor-13 .elementor-element.elementor-element-c2e6c1f > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 10px 0px;}.elementor-13 .elementor-element.elementor-element-67ee62a{text-align:center;}.elementor-13 .elementor-element.elementor-element-67ee62a .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:36px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-67ee62a > .elementor-widget-container{margin:0px 0px 30px 0px;}.elementor-13 .elementor-element.elementor-element-0e56390 > .elementor-container{max-width:1140px;}.elementor-13 .elementor-element.elementor-element-0e56390{padding:0px 90px 90px 90px;}.elementor-13 .elementor-element.elementor-element-e06aa91 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:80px;}.elementor-13 .elementor-element.elementor-element-e06aa91 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-45158b4 .elementor-image-box-wrapper{text-align:left;}.elementor-13 .elementor-element.elementor-element-45158b4.elementor-position-right .elementor-image-box-img{margin-left:30px;}.elementor-13 .elementor-element.elementor-element-45158b4.elementor-position-left .elementor-image-box-img{margin-right:30px;}.elementor-13 .elementor-element.elementor-element-45158b4.elementor-position-top .elementor-image-box-img{margin-bottom:30px;}.elementor-13 .elementor-element.elementor-element-45158b4 .elementor-image-box-title{margin-bottom:15px;color:#16252E;font-family:"Inter", Sans-serif;font-size:20px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-45158b4 .elementor-image-box-wrapper .elementor-image-box-img{width:21%;}.elementor-13 .elementor-element.elementor-element-45158b4 .elementor-image-box-img img{filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );transition-duration:0.3s;}.elementor-13 .elementor-element.elementor-element-45158b4:hover .elementor-image-box-img img{filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );}.elementor-13 .elementor-element.elementor-element-45158b4 .elementor-image-box-description{color:#555555;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:400;line-height:1.6em;}.elementor-13 .elementor-element.elementor-element-45158b4 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 50px 0px 0px;}.elementor-13 .elementor-element.elementor-element-311995f .elementor-image-box-wrapper{text-align:left;}.elementor-13 .elementor-element.elementor-element-311995f.elementor-position-right .elementor-image-box-img{margin-left:30px;}.elementor-13 .elementor-element.elementor-element-311995f.elementor-position-left .elementor-image-box-img{margin-right:30px;}.elementor-13 .elementor-element.elementor-element-311995f.elementor-position-top .elementor-image-box-img{margin-bottom:30px;}.elementor-13 .elementor-element.elementor-element-311995f .elementor-image-box-title{margin-bottom:15px;color:#16252E;font-family:"Inter", Sans-serif;font-size:20px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-311995f .elementor-image-box-wrapper .elementor-image-box-img{width:21%;}.elementor-13 .elementor-element.elementor-element-311995f .elementor-image-box-img img{filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );transition-duration:0.3s;}.elementor-13 .elementor-element.elementor-element-311995f:hover .elementor-image-box-img img{filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );}.elementor-13 .elementor-element.elementor-element-311995f .elementor-image-box-description{color:#555555;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:400;line-height:1.6em;}.elementor-13 .elementor-element.elementor-element-311995f > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 50px 0px 0px;}.elementor-13 .elementor-element.elementor-element-abf8b28 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:80px;}.elementor-13 .elementor-element.elementor-element-abf8b28 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-07f9f90 .elementor-image-box-wrapper{text-align:left;}.elementor-13 .elementor-element.elementor-element-07f9f90.elementor-position-right .elementor-image-box-img{margin-left:30px;}.elementor-13 .elementor-element.elementor-element-07f9f90.elementor-position-left .elementor-image-box-img{margin-right:30px;}.elementor-13 .elementor-element.elementor-element-07f9f90.elementor-position-top .elementor-image-box-img{margin-bottom:30px;}.elementor-13 .elementor-element.elementor-element-07f9f90 .elementor-image-box-title{margin-bottom:15px;color:#16252E;font-family:"Inter", Sans-serif;font-size:20px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-07f9f90 .elementor-image-box-wrapper .elementor-image-box-img{width:21%;}.elementor-13 .elementor-element.elementor-element-07f9f90 .elementor-image-box-img img{filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );transition-duration:0.3s;}.elementor-13 .elementor-element.elementor-element-07f9f90:hover .elementor-image-box-img img{filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );}.elementor-13 .elementor-element.elementor-element-07f9f90 .elementor-image-box-description{color:#555555;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:400;line-height:1.6em;}.elementor-13 .elementor-element.elementor-element-07f9f90 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 50px 0px 0px;}.elementor-13 .elementor-element.elementor-element-d20e241 .elementor-image-box-wrapper{text-align:left;}.elementor-13 .elementor-element.elementor-element-d20e241.elementor-position-right .elementor-image-box-img{margin-left:30px;}.elementor-13 .elementor-element.elementor-element-d20e241.elementor-position-left .elementor-image-box-img{margin-right:30px;}.elementor-13 .elementor-element.elementor-element-d20e241.elementor-position-top .elementor-image-box-img{margin-bottom:30px;}.elementor-13 .elementor-element.elementor-element-d20e241 .elementor-image-box-title{margin-bottom:15px;color:#16252E;font-family:"Inter", Sans-serif;font-size:20px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-d20e241 .elementor-image-box-wrapper .elementor-image-box-img{width:21%;}.elementor-13 .elementor-element.elementor-element-d20e241 .elementor-image-box-img img{filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );transition-duration:0.3s;}.elementor-13 .elementor-element.elementor-element-d20e241:hover .elementor-image-box-img img{filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );}.elementor-13 .elementor-element.elementor-element-d20e241 .elementor-image-box-description{color:#555555;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:400;line-height:1.6em;}.elementor-13 .elementor-element.elementor-element-d20e241 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 50px 0px 0px;}.elementor-13 .elementor-element.elementor-element-c89290f{border-style:solid;border-width:1px 0px 0px 0px;border-color:#E5E5E5;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:60px 0px 60px 0px;}.elementor-13 .elementor-element.elementor-element-c89290f > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-13 .elementor-element.elementor-element-bfe8def > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-0a6b216{margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-14c88fd > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-ef835a2 .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:32px;font-weight:800;line-height:1.4em;}.elementor-13 .elementor-element.elementor-element-ef835a2 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-588c0cf img{width:35px;}.elementor-13 .elementor-element.elementor-element-588c0cf{width:var( --container-widget-width, 40px );max-width:40px;--container-widget-width:40px;--container-widget-flex-grow:0;top:5px;}body:not(.rtl) .elementor-13 .elementor-element.elementor-element-588c0cf{left:486px;}body.rtl .elementor-13 .elementor-element.elementor-element-588c0cf{right:486px;}.elementor-bc-flex-widget .elementor-13 .elementor-element.elementor-element-2b0bf86.elementor-column .elementor-widget-wrap{align-items:flex-start;}.elementor-13 .elementor-element.elementor-element-2b0bf86.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:flex-start;align-items:flex-start;}.elementor-13 .elementor-element.elementor-element-ba9c7b4{color:#555555;font-family:"Nunito", Sans-serif;font-size:18px;font-weight:400;width:var( --container-widget-width, 520px );max-width:520px;--container-widget-width:520px;--container-widget-flex-grow:0;}.elementor-bc-flex-widget .elementor-13 .elementor-element.elementor-element-829b8fe.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-13 .elementor-element.elementor-element-829b8fe.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-13 .elementor-element.elementor-element-2690aa4 .elementor-button{font-family:"Nunito", Sans-serif;font-size:16px;font-weight:700;background-color:#155CE7;border-radius:15px 15px 15px 15px;box-shadow:0px 20px 60px 0px rgba(20.999999999999982, 92.00000000000011, 231, 0.43);padding:15px 50px 15px 50px;}.elementor-13 .elementor-element.elementor-element-2690aa4 > .elementor-widget-container{margin:10px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-d6e5ecc > .elementor-container{max-width:1140px;}.elementor-13 .elementor-element.elementor-element-d6e5ecc:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-d6e5ecc > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://demo.bazatheme.com/wp-content/uploads/2021/08/Group-416imkk.png");background-position:center right;background-repeat:no-repeat;background-size:85px auto;}.elementor-13 .elementor-element.elementor-element-d6e5ecc{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:90px 0px 90px 0px;}.elementor-13 .elementor-element.elementor-element-d6e5ecc > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-13 .elementor-element.elementor-element-580e892{text-align:center;color:#155CE7;font-family:"Inter", Sans-serif;font-size:16px;font-weight:800;text-transform:uppercase;line-height:1.3em;letter-spacing:4px;}.elementor-13 .elementor-element.elementor-element-580e892 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 10px 0px;}.elementor-13 .elementor-element.elementor-element-4be59e6 > .elementor-container{max-width:560px;}.elementor-13 .elementor-element.elementor-element-4be59e6{padding:0px 0px 40px 0px;}.elementor-13 .elementor-element.elementor-element-8303a27 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-de0f080{text-align:center;}.elementor-13 .elementor-element.elementor-element-de0f080 .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:36px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-de0f080 > .elementor-widget-container{margin:0px 0px 30px 0px;}.elementor-13 .elementor-element.elementor-element-9fdc44e > .elementor-container{max-width:1140px;}.elementor-13 .elementor-element.elementor-element-9fdc44e .elementor-column-gap-custom .elementor-column > .elementor-element-populated{padding:0px;}.elementor-13 .elementor-element.elementor-element-9fdc44e{padding:0px 0px 90px 0px;}.elementor-13 .elementor-element.elementor-element-bb6b71a > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-bb6b71a > .elementor-element-populated{margin:0px 40px 0px 0px;--e-column-margin-right:40px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-48f3f76 img{height:480px;object-fit:cover;object-position:center center;border-radius:30px 30px 30px 30px;}.elementor-13 .elementor-element.elementor-element-29da6eb{color:#555555BA;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:700;}.elementor-13 .elementor-element.elementor-element-29da6eb > .elementor-widget-container{padding:20px 0px 15px 20px;}.elementor-13 .elementor-element.elementor-element-b496b1f .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:24px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-b496b1f > .elementor-widget-container{padding:0px 0px 0px 20px;}.elementor-13 .elementor-element.elementor-element-3b83085 img{height:390px;object-fit:cover;object-position:center center;border-radius:30px 30px 30px 30px;}.elementor-13 .elementor-element.elementor-element-3b83085 > .elementor-widget-container{padding:60px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-75df4e9{color:#555555BA;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:700;}.elementor-13 .elementor-element.elementor-element-75df4e9 > .elementor-widget-container{padding:20px 0px 15px 20px;}.elementor-13 .elementor-element.elementor-element-35da093 .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:24px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-35da093 > .elementor-widget-container{padding:0px 0px 0px 20px;}.elementor-13 .elementor-element.elementor-element-ea9c255 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-ea9c255 > .elementor-element-populated{margin:0px 0px 0px 40px;--e-column-margin-right:0px;--e-column-margin-left:40px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-6698bfb img{height:385px;object-fit:cover;object-position:center center;border-radius:30px 30px 30px 30px;}.elementor-13 .elementor-element.elementor-element-6e7f9b3{color:#555555BA;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:700;}.elementor-13 .elementor-element.elementor-element-6e7f9b3 > .elementor-widget-container{padding:20px 0px 15px 20px;}.elementor-13 .elementor-element.elementor-element-3dc2e15 .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:24px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-3dc2e15 > .elementor-widget-container{padding:0px 0px 0px 20px;}.elementor-13 .elementor-element.elementor-element-465a948 img{width:100%;height:490px;object-fit:cover;object-position:center center;border-radius:30px 30px 30px 30px;}.elementor-13 .elementor-element.elementor-element-465a948 > .elementor-widget-container{padding:60px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-cfe6197{color:#555555BA;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:700;}.elementor-13 .elementor-element.elementor-element-cfe6197 > .elementor-widget-container{padding:20px 0px 15px 20px;}.elementor-13 .elementor-element.elementor-element-bc983b4 .elementor-heading-title{color:#16252E;font-family:"Inter", Sans-serif;font-size:24px;font-weight:800;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-bc983b4 > .elementor-widget-container{padding:0px 0px 0px 20px;}.elementor-13 .elementor-element.elementor-element-0895733 .elementor-button{font-family:"Nunito", Sans-serif;font-size:20px;font-weight:700;fill:#155CE7;color:#155CE7;background-color:#FFFFFF00;box-shadow:0px 0px 10px 0px rgba(255, 255, 255, 0);padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-0895733 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-b939732:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-b939732 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#155CE7;}.elementor-13 .elementor-element.elementor-element-b939732 > .elementor-background-overlay{background-image:url("https://demo.bazatheme.com/wp-content/uploads/2021/07/bg-t@2x.png");background-position:center center;background-repeat:no-repeat;background-size:cover;mix-blend-mode:lighten;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-13 .elementor-element.elementor-element-b939732{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:90px 0px 90px 0px;}.elementor-13 .elementor-element.elementor-element-d155c43 > .elementor-container{max-width:822px;}.elementor-13 .elementor-element.elementor-element-d155c43{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-2130c7e > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-a65ce8a{text-align:center;color:#77FF9D;font-family:"Inter", Sans-serif;font-size:16px;font-weight:800;text-transform:uppercase;line-height:1.3em;letter-spacing:4px;}.elementor-13 .elementor-element.elementor-element-a65ce8a > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 10px 0px;}.elementor-13 .elementor-element.elementor-element-9aeb739 .elementor-testimonial-wrapper{text-align:center;}.elementor-13 .elementor-element.elementor-element-9aeb739 .elementor-testimonial-content{color:#FFFFFF;font-family:"Inter", Sans-serif;font-size:26px;font-weight:700;line-height:1.6em;}.elementor-13 .elementor-element.elementor-element-9aeb739 .elementor-testimonial-wrapper .elementor-testimonial-image img{width:64px;height:64px;}.elementor-13 .elementor-element.elementor-element-9aeb739 .elementor-testimonial-name{color:#FFFFFF;font-family:"Nunito", Sans-serif;font-size:20px;font-weight:700;}.elementor-13 .elementor-element.elementor-element-9aeb739 .elementor-testimonial-job{color:#FCFCFD9E;font-family:"Nunito", Sans-serif;font-size:16px;font-weight:400;line-height:1.4em;}@media(max-width:1024px){.elementor-13 .elementor-element.elementor-element-b2573b0 > .elementor-container{min-height:820px;}.elementor-13 .elementor-element.elementor-element-b2573b0:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-b2573b0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-185.png");background-position:center center;background-repeat:repeat;background-size:cover;}.elementor-13 .elementor-element.elementor-element-b2573b0{padding:40px 20px 60px 20px;}.elementor-13 .elementor-element.elementor-element-ba15a5f{text-align:center;}.elementor-13 .elementor-element.elementor-element-efd92f9{text-align:center;}.elementor-13 .elementor-element.elementor-element-b29b28e{text-align:center;}.elementor-13 .elementor-element.elementor-element-a5d6ef7 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;}.elementor-13 .elementor-element.elementor-element-028e230 img{width:50%;}.elementor-13 .elementor-element.elementor-element-30f9c7d{margin-top:40px;margin-bottom:40px;}.elementor-13 .elementor-element.elementor-element-6e3c735:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-6e3c735 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-size:100px auto;}.elementor-13 .elementor-element.elementor-element-6e3c735{padding:0px 20px 40px 20px;}.elementor-13 .elementor-element.elementor-element-3f0c45f img{width:50%;}.elementor-13 .elementor-element.elementor-element-956b5db{text-align:left;}.elementor-13 .elementor-element.elementor-element-163302b{padding:40px 20px 40px 20px;}.elementor-13 .elementor-element.elementor-element-3d3b388:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-3d3b388 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:top left;background-size:100px auto;}.elementor-13 .elementor-element.elementor-element-3d3b388{padding:60px 0px 40px 0px;}.elementor-13 .elementor-element.elementor-element-0e56390{padding:0px 20px 80px 20px;}.elementor-13 .elementor-element.elementor-element-c89290f{margin-top:0px;margin-bottom:0px;padding:60px 20px 20px 40px;}.elementor-13 .elementor-element.elementor-element-bfe8def > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-ef835a2 .elementor-heading-title{font-size:32px;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-ef835a2 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-ef835a2{width:initial;max-width:initial;}body:not(.rtl) .elementor-13 .elementor-element.elementor-element-588c0cf{left:486px;}body.rtl .elementor-13 .elementor-element.elementor-element-588c0cf{right:486px;}.elementor-13 .elementor-element.elementor-element-588c0cf{top:0px;}.elementor-13 .elementor-element.elementor-element-829b8fe > .elementor-element-populated{padding:20px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-d6e5ecc:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-d6e5ecc > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-size:40px auto;}.elementor-13 .elementor-element.elementor-element-d6e5ecc{padding:60px 0px 60px 0px;}.elementor-13 .elementor-element.elementor-element-9fdc44e{padding:0px 20px 40px 20px;}.elementor-13 .elementor-element.elementor-element-bb6b71a > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-48f3f76 img{height:300px;}.elementor-13 .elementor-element.elementor-element-3b83085 img{height:200px;}.elementor-13 .elementor-element.elementor-element-6698bfb img{height:200px;}.elementor-13 .elementor-element.elementor-element-465a948 img{height:300px;}.elementor-13 .elementor-element.elementor-element-b939732{padding:60px 20px 60px 20px;}}@media(max-width:767px){.elementor-13 .elementor-element.elementor-element-b2573b0 .elementor-column-gap-custom .elementor-column > .elementor-element-populated{padding:0px;}.elementor-13 .elementor-element.elementor-element-b2573b0 > .elementor-container{min-height:400px;}.elementor-13 .elementor-element.elementor-element-b2573b0:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-b2573b0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:center center;background-size:cover;}.elementor-13 .elementor-element.elementor-element-b2573b0{padding:40px 20px 60px 20px;}.elementor-13 .elementor-element.elementor-element-45485f8 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-45485f8 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-ba15a5f{font-size:14px;letter-spacing:3px;}.elementor-13 .elementor-element.elementor-element-ba15a5f > .elementor-widget-container{padding:0px 0px 15px 0px;}.elementor-13 .elementor-element.elementor-element-efd92f9{font-size:36px;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-efd92f9 > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-b29b28e{font-size:16px;}.elementor-13 .elementor-element.elementor-element-a5d6ef7 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;}.elementor-13 .elementor-element.elementor-element-028e230 img{width:100%;max-width:280px;}.elementor-13 .elementor-element.elementor-element-028e230 > .elementor-widget-container{margin:0px 0px 20px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-30f9c7d{margin-top:50px;margin-bottom:50px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-6e3c735:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-6e3c735 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-size:60px auto;}.elementor-13 .elementor-element.elementor-element-6e3c735{padding:0px 20px 0px 20px;}.elementor-13 .elementor-element.elementor-element-d4eed73.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-13 .elementor-element.elementor-element-d4eed73 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-3f0c45f{text-align:center;}.elementor-13 .elementor-element.elementor-element-3f0c45f img{width:100%;max-width:280px;}.elementor-13 .elementor-element.elementor-element-3f0c45f > .elementor-widget-container{padding:0px 0px 20px 0px;}.elementor-13 .elementor-element.elementor-element-16c7155 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-16c7155 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-956b5db{text-align:left;font-size:14px;letter-spacing:3px;}.elementor-13 .elementor-element.elementor-element-956b5db > .elementor-widget-container{padding:0px 0px 10px 0px;}.elementor-13 .elementor-element.elementor-element-9ac0438 .elementor-heading-title{font-size:32px;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-9ac0438 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-c9daaae{font-size:14px;}.elementor-13 .elementor-element.elementor-element-c9daaae > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-163302b{padding:50px 20px 50px 20px;}.elementor-13 .elementor-element.elementor-element-7070a1c .elementor-counter-number-wrapper{font-size:36px;}.elementor-13 .elementor-element.elementor-element-7070a1c .elementor-counter-title{font-size:16px;}.elementor-13 .elementor-element.elementor-element-7070a1c > .elementor-widget-container{padding:0px 0px 20px 0px;}.elementor-13 .elementor-element.elementor-element-6b20422 .elementor-counter-number-wrapper{font-size:36px;}.elementor-13 .elementor-element.elementor-element-6b20422 .elementor-counter-title{font-size:16px;}.elementor-13 .elementor-element.elementor-element-6b20422 > .elementor-widget-container{padding:0px 0px 20px 0px;}.elementor-13 .elementor-element.elementor-element-6ef2f74 .elementor-counter-number-wrapper{font-size:36px;}.elementor-13 .elementor-element.elementor-element-6ef2f74 .elementor-counter-title{font-size:16px;}.elementor-13 .elementor-element.elementor-element-3d3b388:not(.elementor-motion-effects-element-type-background), .elementor-13 .elementor-element.elementor-element-3d3b388 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:top left;background-size:0px auto;}.elementor-13 .elementor-element.elementor-element-3d3b388{padding:60px 20px 40px 20px;}.elementor-13 .elementor-element.elementor-element-eb10f2c > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-1d20826{padding:0px 0px 20px 0px;}.elementor-13 .elementor-element.elementor-element-c2e6c1f{font-size:14px;letter-spacing:3px;}.elementor-13 .elementor-element.elementor-element-c2e6c1f > .elementor-widget-container{padding:0px 0px 10px 0px;}.elementor-13 .elementor-element.elementor-element-67ee62a .elementor-heading-title{font-size:32px;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-e06aa91 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:40px;}.elementor-13 .elementor-element.elementor-element-e06aa91 > .elementor-element-populated{padding:0px 0px 40px 0px;}.elementor-13 .elementor-element.elementor-element-45158b4 .elementor-image-box-wrapper{text-align:left;}.elementor-13 .elementor-element.elementor-element-45158b4 .elementor-image-box-img{margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-45158b4.elementor-position-right .elementor-image-box-img{margin-left:0px;}.elementor-13 .elementor-element.elementor-element-45158b4.elementor-position-left .elementor-image-box-img{margin-right:0px;}.elementor-13 .elementor-element.elementor-element-45158b4.elementor-position-top .elementor-image-box-img{margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-45158b4 .elementor-image-box-title{margin-bottom:0px;font-size:20px;line-height:2.5em;}.elementor-13 .elementor-element.elementor-element-45158b4 .elementor-image-box-wrapper .elementor-image-box-img{width:15%;}.elementor-13 .elementor-element.elementor-element-45158b4 > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-311995f .elementor-image-box-wrapper{text-align:left;}.elementor-13 .elementor-element.elementor-element-311995f .elementor-image-box-img{margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-311995f.elementor-position-right .elementor-image-box-img{margin-left:0px;}.elementor-13 .elementor-element.elementor-element-311995f.elementor-position-left .elementor-image-box-img{margin-right:0px;}.elementor-13 .elementor-element.elementor-element-311995f.elementor-position-top .elementor-image-box-img{margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-311995f .elementor-image-box-title{margin-bottom:0px;font-size:20px;line-height:2.5em;}.elementor-13 .elementor-element.elementor-element-311995f .elementor-image-box-wrapper .elementor-image-box-img{width:15%;}.elementor-13 .elementor-element.elementor-element-311995f > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-abf8b28 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:40px;}.elementor-13 .elementor-element.elementor-element-07f9f90 .elementor-image-box-wrapper{text-align:left;}.elementor-13 .elementor-element.elementor-element-07f9f90 .elementor-image-box-img{margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-07f9f90.elementor-position-right .elementor-image-box-img{margin-left:0px;}.elementor-13 .elementor-element.elementor-element-07f9f90.elementor-position-left .elementor-image-box-img{margin-right:0px;}.elementor-13 .elementor-element.elementor-element-07f9f90.elementor-position-top .elementor-image-box-img{margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-07f9f90 .elementor-image-box-title{margin-bottom:0px;font-size:20px;line-height:2.5em;}.elementor-13 .elementor-element.elementor-element-07f9f90 .elementor-image-box-wrapper .elementor-image-box-img{width:15%;}.elementor-13 .elementor-element.elementor-element-07f9f90 > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-d20e241 .elementor-image-box-wrapper{text-align:left;}.elementor-13 .elementor-element.elementor-element-d20e241 .elementor-image-box-img{margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-d20e241.elementor-position-right .elementor-image-box-img{margin-left:0px;}.elementor-13 .elementor-element.elementor-element-d20e241.elementor-position-left .elementor-image-box-img{margin-right:0px;}.elementor-13 .elementor-element.elementor-element-d20e241.elementor-position-top .elementor-image-box-img{margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-d20e241 .elementor-image-box-title{margin-bottom:0px;font-size:20px;line-height:2.5em;}.elementor-13 .elementor-element.elementor-element-d20e241 .elementor-image-box-wrapper .elementor-image-box-img{width:15%;}.elementor-13 .elementor-element.elementor-element-d20e241 > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-c89290f{padding:60px 20px 20px 20px;}.elementor-13 .elementor-element.elementor-element-0a6b216{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-ef835a2 .elementor-heading-title{font-size:26px;}.elementor-13 .elementor-element.elementor-element-ef835a2{width:var( --container-widget-width, 290px );max-width:290px;--container-widget-width:290px;--container-widget-flex-grow:0;}.elementor-13 .elementor-element.elementor-element-588c0cf{width:var( --container-widget-width, 30px );max-width:30px;--container-widget-width:30px;--container-widget-flex-grow:0;top:34px;}body:not(.rtl) .elementor-13 .elementor-element.elementor-element-588c0cf{left:125px;}body.rtl .elementor-13 .elementor-element.elementor-element-588c0cf{right:125px;}.elementor-13 .elementor-element.elementor-element-2b0bf86 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-ba9c7b4{text-align:left;font-size:14px;}.elementor-13 .elementor-element.elementor-element-d6e5ecc{padding:60px 20px 60px 20px;}.elementor-13 .elementor-element.elementor-element-8f02f7f > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-13 .elementor-element.elementor-element-580e892{font-size:14px;letter-spacing:3px;}.elementor-13 .elementor-element.elementor-element-580e892 > .elementor-widget-container{padding:0px 0px 10px 0px;}.elementor-13 .elementor-element.elementor-element-4be59e6{padding:0px 0px 20px 0px;}.elementor-13 .elementor-element.elementor-element-de0f080 .elementor-heading-title{font-size:32px;line-height:1.3em;}.elementor-13 .elementor-element.elementor-element-bb6b71a > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-48f3f76 img{height:200px;}.elementor-13 .elementor-element.elementor-element-29da6eb{font-size:14px;}.elementor-13 .elementor-element.elementor-element-29da6eb > .elementor-widget-container{padding:10px 0px 0px 10px;}.elementor-13 .elementor-element.elementor-element-b496b1f .elementor-heading-title{font-size:22px;}.elementor-13 .elementor-element.elementor-element-b496b1f > .elementor-widget-container{padding:10px 0px 0px 10px;}.elementor-13 .elementor-element.elementor-element-3b83085 img{height:200px;}.elementor-13 .elementor-element.elementor-element-3b83085 > .elementor-widget-container{padding:40px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-75df4e9{font-size:14px;}.elementor-13 .elementor-element.elementor-element-75df4e9 > .elementor-widget-container{padding:10px 0px 0px 10px;}.elementor-13 .elementor-element.elementor-element-35da093 .elementor-heading-title{font-size:22px;}.elementor-13 .elementor-element.elementor-element-35da093 > .elementor-widget-container{padding:10px 0px 0px 10px;}.elementor-13 .elementor-element.elementor-element-ea9c255 > .elementor-element-populated{margin:40px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-6698bfb img{height:200px;}.elementor-13 .elementor-element.elementor-element-6e7f9b3{font-size:14px;}.elementor-13 .elementor-element.elementor-element-6e7f9b3 > .elementor-widget-container{padding:10px 0px 0px 10px;}.elementor-13 .elementor-element.elementor-element-3dc2e15 .elementor-heading-title{font-size:22px;}.elementor-13 .elementor-element.elementor-element-3dc2e15 > .elementor-widget-container{padding:10px 0px 0px 10px;}.elementor-13 .elementor-element.elementor-element-465a948 img{height:200px;}.elementor-13 .elementor-element.elementor-element-465a948 > .elementor-widget-container{padding:40px 0px 0px 0px;}.elementor-13 .elementor-element.elementor-element-cfe6197{font-size:14px;}.elementor-13 .elementor-element.elementor-element-cfe6197 > .elementor-widget-container{padding:10px 0px 0px 10px;}.elementor-13 .elementor-element.elementor-element-bc983b4 .elementor-heading-title{font-size:22px;}.elementor-13 .elementor-element.elementor-element-bc983b4 > .elementor-widget-container{padding:10px 0px 0px 10px;}.elementor-13 .elementor-element.elementor-element-b939732{padding:60px 20px 60px 20px;}.elementor-13 .elementor-element.elementor-element-a65ce8a{font-size:14px;letter-spacing:3px;}.elementor-13 .elementor-element.elementor-element-9aeb739 .elementor-testimonial-content{font-size:20px;}}@media(min-width:768px){.elementor-13 .elementor-element.elementor-element-45485f8{width:51.667%;}.elementor-13 .elementor-element.elementor-element-8f5722f{width:48.25%;}.elementor-13 .elementor-element.elementor-element-bfe8def{width:66.754%;}.elementor-13 .elementor-element.elementor-element-14c88fd{width:65.108%;}.elementor-13 .elementor-element.elementor-element-2b0bf86{width:34.758%;}.elementor-13 .elementor-element.elementor-element-829b8fe{width:32.682%;}}@media(max-width:1024px) and (min-width:768px){.elementor-13 .elementor-element.elementor-element-45485f8{width:100%;}.elementor-13 .elementor-element.elementor-element-8f5722f{width:100%;}.elementor-13 .elementor-element.elementor-element-48150f9{width:100%;}.elementor-13 .elementor-element.elementor-element-f7ee3d1{width:100%;}.elementor-13 .elementor-element.elementor-element-8244627{width:100%;}.elementor-13 .elementor-element.elementor-element-d4eed73{width:100%;}.elementor-13 .elementor-element.elementor-element-16c7155{width:100%;}.elementor-13 .elementor-element.elementor-element-bfe8def{width:100%;}.elementor-13 .elementor-element.elementor-element-14c88fd{width:70%;}.elementor-13 .elementor-element.elementor-element-829b8fe{width:100%;}}
+</style>
+<link rel='stylesheet' id='swiper-css' href='https://demo.bazatheme.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-add-custom-css-css' href='https://demo.bazatheme.com?display_custom_css=css&#038;ver=6.6.1' type='text/css' media='all' />
+<link rel='preload' as="style" onload="this.onload=null;this.rel='stylesheet'" data-wpacu-preload-it-async='1' id='wpacu-combined-google-fonts-css-async-preload' href='https://fonts.googleapis.com/css?family=Inter:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Nunito:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;display=swap' type='text/css' media='all' />
+<script id="wpacu-preload-async-css-fallback">
+/*! LoadCSS. [c]2020 Filament Group, Inc. MIT License */
+/* This file is meant as a standalone workflow for
+- testing support for link[rel=preload]
+- enabling async CSS loading in browsers that do not support rel=preload
+- applying rel preload css once loaded, whether supported or not.
+*/
+(function(w){"use strict";var wpacuLoadCSS=function(href,before,media,attributes){var doc=w.document;var ss=doc.createElement('link');var ref;if(before){ref=before}else{var refs=(doc.body||doc.getElementsByTagName('head')[0]).childNodes;ref=refs[refs.length-1]}
+var sheets=doc.styleSheets;if(attributes){for(var attributeName in attributes){if(attributes.hasOwnProperty(attributeName)){ss.setAttribute(attributeName,attributes[attributeName])}}}
+ss.rel="stylesheet";ss.href=href;ss.media="only x";function ready(cb){if(doc.body){return cb()}
+setTimeout(function(){ready(cb)})}
+ready(function(){ref.parentNode.insertBefore(ss,(before?ref:ref.nextSibling))});var onwpaculoadcssdefined=function(cb){var resolvedHref=ss.href;var i=sheets.length;while(i--){if(sheets[i].href===resolvedHref){return cb()}}
+setTimeout(function(){onwpaculoadcssdefined(cb)})};function wpacuLoadCB(){if(ss.addEventListener){ss.removeEventListener("load",wpacuLoadCB)}
+ss.media=media||"all"}
+if(ss.addEventListener){ss.addEventListener("load",wpacuLoadCB)}
+ss.onwpaculoadcssdefined=onwpaculoadcssdefined;onwpaculoadcssdefined(wpacuLoadCB);return ss};if(typeof exports!=="undefined"){exports.wpacuLoadCSS=wpacuLoadCSS}else{w.wpacuLoadCSS=wpacuLoadCSS}}(typeof global!=="undefined"?global:this))
+</script><link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://demo.bazatheme.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://demo.bazatheme.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script   type="text/javascript" src="https://demo.bazatheme.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.8.5" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/demo.bazatheme.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.8.5" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.8.5" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.8.5" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script   type="text/javascript" src="https://stats.wp.com/s-202432.js" id="woocommerce-analytics-js" defer="defer" data-wp-strategy="defer"></script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/themes/baza/assets/js/bootstrap.bundle.min.js?ver=1.30" id="bootstrap-js"></script>
+<script   type="text/javascript" id="baza-js-before">
+/* <![CDATA[ */
+    if (screen.width >= 1535 && screen.width < 2561) { 
+        let mvp = document.getElementById('siteViewport');
+        mvp.setAttribute('content','width=1920');
+    }
+    if (screen.width > 767 && screen.width < 1535) {
+        let mvp = document.getElementById('siteViewport');
+        mvp.setAttribute('content','width=1700');
+    }
+    
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/themes/baza/assets/js/index.js?ver=1.30" id="baza-js"></script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/themes/baza/assets/js/sticky-header.js?ver=1.30" id="sticky-header-js"></script>
+<link rel="https://api.w.org/" href="https://demo.bazatheme.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://demo.bazatheme.com/wp-json/wp/v2/pages/13" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://demo.bazatheme.com/xmlrpc.php?rsd" />
+<link rel="canonical" href="https://demo.bazatheme.com/" />
+<link rel='shortlink' href='https://demo.bazatheme.com/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://demo.bazatheme.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.bazatheme.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://demo.bazatheme.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.bazatheme.com%2F&#038;format=xml" />
+	<style>img#wpstats{display:none}</style>
+			<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.21.8; features: e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-internal, google_font-enabled, font_display-auto">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://demo.bazatheme.com/wp-content/uploads/2021/08/black-white-100x100.png" sizes="32x32" />
+<link rel="icon" href="https://demo.bazatheme.com/wp-content/uploads/2021/08/black-white.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://demo.bazatheme.com/wp-content/uploads/2021/08/black-white.png" />
+<meta name="msapplication-TileImage" content="https://demo.bazatheme.com/wp-content/uploads/2021/08/black-white.png" />
+</head>
+<body class="home page-template page-template-page-templates page-template-template-full-width-page-without-header-title page-template-page-templatestemplate-full-width-page-without-header-title-php page page-id-13 theme-baza woocommerce-no-js elementor-default elementor-kit-8 elementor-page elementor-page-13">
+<nav id="pr-nav" class="primary-menu navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid primary-menu-inner px-0">
+        <div class="top-wrap">
+            <a class="custom-logo-link" href="https://demo.bazatheme.com"><h5 class="m-0">Baza</h5></a>            <button id="mobile-toggle" class="navbar-toggler animate-button collapsed" type="button"
+                    data-toggle="collapse" data-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="m-tgl-icon" class="animated-icon1"><span></span><span></span></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarColor01">
+            <ul id="primary-menu" class="navbar-nav pl-3" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li  id="menu-item-12457" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-12457 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-12457"><span itemprop="name">Marketing</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-12457">
+	<li  id="menu-item-12431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12431 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/digital-marketing-agency/" class="dropdown-item"><span itemprop="name">Digital Marketing Agency</span></a></li>
+	<li  id="menu-item-12430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12430 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/digital-marketing/" class="dropdown-item"><span itemprop="name">Digital Marketing</span></a></li>
+	<li  id="menu-item-12433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12433 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/email-marketing-services/" class="dropdown-item"><span itemprop="name">Email Marketing Services</span></a></li>
+	<li  id="menu-item-12448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12448 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/seo-agency/" class="dropdown-item"><span itemprop="name">SEO Agency</span></a></li>
+	<li  id="menu-item-12449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12449 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/seo-services/" class="dropdown-item"><span itemprop="name">SEO Services</span></a></li>
+	<li  id="menu-item-12451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12451 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/smm-instagram/" class="dropdown-item"><span itemprop="name">SMM Instagram</span></a></li>
+	<li  id="menu-item-12452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12452 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/smm-services/" class="dropdown-item"><span itemprop="name">SMM Services</span></a></li>
+	<li  id="menu-item-12429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12429 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/creative-agency/" class="dropdown-item"><span itemprop="name">Creative Agency</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-12455" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-12455 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-12455"><span itemprop="name">Digital</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-12455">
+	<li  id="menu-item-12421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12421 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/agency/" class="dropdown-item"><span itemprop="name">Agency</span></a></li>
+	<li  id="menu-item-12420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item active menu-item-12420 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/" class="dropdown-item" aria-current="page"><span itemprop="name">Web Development Agency</span></a></li>
+	<li  id="menu-item-12422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12422 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/broadband/" class="dropdown-item"><span itemprop="name">Broadband</span></a></li>
+	<li  id="menu-item-12428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12428 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/content-writing-agency/" class="dropdown-item"><span itemprop="name">Content Writing Agency</span></a></li>
+	<li  id="menu-item-12432" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12432 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/ebook-landing/" class="dropdown-item"><span itemprop="name">eBook Landing</span></a></li>
+	<li  id="menu-item-12438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12438 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/graphic-design-services/" class="dropdown-item"><span itemprop="name">Graphic Design Services</span></a></li>
+	<li  id="menu-item-12440" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12440 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/it-hr-services/" class="dropdown-item"><span itemprop="name">IT HR Services</span></a></li>
+	<li  id="menu-item-12441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12441 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/language-school/" class="dropdown-item"><span itemprop="name">Language School</span></a></li>
+	<li  id="menu-item-12444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12444 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/mobile-app-landing/" class="dropdown-item"><span itemprop="name">Mobile App Landing</span></a></li>
+	<li  id="menu-item-12445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12445 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/nft-single-item-landing/" class="dropdown-item"><span itemprop="name">NFT Single Item Landing</span></a></li>
+	<li  id="menu-item-12446" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12446 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/online-course-landing/" class="dropdown-item"><span itemprop="name">Online Course Landing</span></a></li>
+	<li  id="menu-item-12447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12447 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/saas-services/" class="dropdown-item"><span itemprop="name">Saas Services</span></a></li>
+	<li  id="menu-item-12453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12453 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/software-landing/" class="dropdown-item"><span itemprop="name">Software Landing</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-12456" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-12456 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-12456"><span itemprop="name">Business Consulting</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-12456">
+	<li  id="menu-item-12437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12437 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/financial-consultant/" class="dropdown-item"><span itemprop="name">Financial Consultant</span></a></li>
+	<li  id="menu-item-12439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12439 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/it-consultant/" class="dropdown-item"><span itemprop="name">IT Consultant</span></a></li>
+	<li  id="menu-item-12423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12423 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/business-consultant/" class="dropdown-item"><span itemprop="name">Business Consultant</span></a></li>
+	<li  id="menu-item-12424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12424 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/business-consulting-1/" class="dropdown-item"><span itemprop="name">Business Consulting 1</span></a></li>
+	<li  id="menu-item-12425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12425 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/business-consulting-2/" class="dropdown-item"><span itemprop="name">Business Consulting 2</span></a></li>
+	<li  id="menu-item-12426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12426 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/business-consulting-3/" class="dropdown-item"><span itemprop="name">Business Consulting 3</span></a></li>
+	<li  id="menu-item-12427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12427 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/business-consulting-services/" class="dropdown-item"><span itemprop="name">Business Consulting Services</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-12458" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-12458 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-12458"><span itemprop="name">Events</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-12458">
+	<li  id="menu-item-12454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12454 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/webinar/" class="dropdown-item"><span itemprop="name">Webinar</span></a></li>
+	<li  id="menu-item-12434" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12434 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/event/" class="dropdown-item"><span itemprop="name">Event</span></a></li>
+	<li  id="menu-item-12435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12435 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/event-2/" class="dropdown-item"><span itemprop="name">Event 2</span></a></li>
+	<li  id="menu-item-12436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12436 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/event-3/" class="dropdown-item"><span itemprop="name">Event 3</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-12459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-12459 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-12459"><span itemprop="name">Law</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-12459">
+	<li  id="menu-item-12442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12442 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/law/" class="dropdown-item"><span itemprop="name">Law</span></a></li>
+	<li  id="menu-item-12443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12443 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/law-2/" class="dropdown-item"><span itemprop="name">Law 2</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-4837" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-4837 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-4837"><span itemprop="name">Sell Online</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-4837">
+	<li  id="menu-item-5228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5228 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/shop/" class="dropdown-item"><span itemprop="name">Shop</span></a></li>
+	<li  id="menu-item-5227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5227 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/my-account/" class="dropdown-item"><span itemprop="name">My account</span></a></li>
+	<li  id="menu-item-5225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5225 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/cart/" class="dropdown-item"><span itemprop="name">Cart</span></a></li>
+	<li  id="menu-item-5226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5226 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/checkout/" class="dropdown-item"><span itemprop="name">Checkout</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-4836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-4836 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-4836"><span itemprop="name">Blog</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-4836">
+	<li  id="menu-item-5224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5224 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/blog-one-column/" class="dropdown-item"><span itemprop="name">Blog One Column</span></a></li>
+	<li  id="menu-item-5223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5223 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/blog-one-column-with-sidebar/" class="dropdown-item"><span itemprop="name">Blog One Column With Sidebar</span></a></li>
+	<li  id="menu-item-5222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5222 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/blog-two-columns/" class="dropdown-item"><span itemprop="name">Blog Two Columns</span></a></li>
+	<li  id="menu-item-5221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5221 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/blog-two-columns-with-sidebar/" class="dropdown-item"><span itemprop="name">Blog Two Columns With Sidebar</span></a></li>
+	<li  id="menu-item-5220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5220 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/blog-three-columns/" class="dropdown-item"><span itemprop="name">Blog Three Columns</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-4835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-4835 nav-item"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-4835"><span itemprop="name">Contact Us</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-4835">
+	<li  id="menu-item-6959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6959 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/contact-us/" class="dropdown-item"><span itemprop="name">Contact Us 1</span></a></li>
+	<li  id="menu-item-5390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5390 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/contact-us-2/" class="dropdown-item"><span itemprop="name">Contact Us 2</span></a></li>
+	<li  id="menu-item-7088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7088 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/contact-us-3/" class="dropdown-item"><span itemprop="name">Contact Us 3</span></a></li>
+	<li  id="menu-item-7117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7117 nav-item"><a itemprop="url" href="https://demo.bazatheme.com/contact-us-4/" class="dropdown-item"><span itemprop="name">Contact Us 4</span></a></li>
+</ul>
+</li>
+</ul>            <div class="header-icons">
+                <div id="magic-search" class="magic-search">
+    <form role="search" method="get" class="search-form" action="https://demo.bazatheme.com/">
+        <div class="inner-form">
+            <div class="row justify-content-end">
+                <div class="input-field first justify-content-end" id="first">
+                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="612.01px" height="612.01px"
+                         viewBox="0 0 612.01 612.01" xml:space="preserve"><g><path d="M606.209,578.714L448.198,423.228C489.576,378.272,515,318.817,515,253.393C514.98,113.439,399.704,0,257.493,0
+				C115.282,0,0.006,113.439,0.006,253.393s115.276,253.393,257.487,253.393c61.445,0,117.801-21.253,162.068-56.586
+				l158.624,156.099c7.729,7.614,20.277,7.614,28.006,0C613.938,598.686,613.938,586.328,606.209,578.714z M257.493,467.8
+				c-120.326,0-217.869-95.993-217.869-214.407S137.167,38.986,257.493,38.986c120.327,0,217.869,95.993,217.869,214.407
+				S377.82,467.8,257.493,467.8z"></path></g>
+                    </svg>
+                    <input autocomplete="off" type="search" class="input" id="inputFocus" placeholder="Search"
+                           value="" name="s" required/>
+                    <input type="submit" value="Search"
+                           class="search-submit"/>
+                    <input type="hidden" name="post_type" value="product">                    <div class="clear" id="clear">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#6e6e73" width="24" height="24"
+                             viewBox="0 0 24 24">
+                            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+                <div class="header-cart-icon">        <a class="menu-item cart-contents" href="https://demo.bazatheme.com/cart/" title="My Basket">
+            <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.79942 11.6369H5.80024C5.80093 11.6369 5.80161 11.6367 5.8023 11.6367H15.3633C15.5987 11.6367 15.8056 11.4806 15.8703 11.2543L17.9797 3.87144C18.0251 3.71228 17.9933 3.54117 17.8937 3.40906C17.794 3.27695 17.6381 3.19922 17.4727 3.19922H4.58323L4.20626 1.50279C4.15257 1.26151 3.93861 1.08984 3.69141 1.08984H0.527351C0.236076 1.08984 7.62939e-06 1.32591 7.62939e-06 1.61719C7.62939e-06 1.90846 0.236076 2.14453 0.527351 2.14453H3.26844C3.33518 2.44514 5.0724 10.2627 5.17237 10.7125C4.61193 10.9561 4.21876 11.5149 4.21876 12.1641C4.21876 13.0364 4.92847 13.7461 5.80079 13.7461H15.3633C15.6546 13.7461 15.8906 13.51 15.8906 13.2188C15.8906 12.9275 15.6546 12.6914 15.3633 12.6914H5.80079C5.51006 12.6914 5.27345 12.4548 5.27345 12.1641C5.27345 11.8737 5.50924 11.6375 5.79942 11.6369ZM16.7735 4.25391L14.9654 10.582H6.22376L4.81751 4.25391H16.7735Z"></path>
+                <path d="M5.27342 15.3281C5.27342 16.2004 5.98314 16.9102 6.85545 16.9102C7.72777 16.9102 8.43749 16.2004 8.43749 15.3281C8.43749 14.4558 7.72777 13.7461 6.85545 13.7461C5.98314 13.7461 5.27342 14.4558 5.27342 15.3281ZM6.85545 14.8008C7.14618 14.8008 7.3828 15.0374 7.3828 15.3281C7.3828 15.6189 7.14618 15.8555 6.85545 15.8555C6.56473 15.8555 6.32811 15.6189 6.32811 15.3281C6.32811 15.0374 6.56473 14.8008 6.85545 14.8008Z"></path>
+                <path d="M12.7266 15.3281C12.7266 16.2004 13.4363 16.9102 14.3086 16.9102C15.1809 16.9102 15.8906 16.2004 15.8906 15.3281C15.8906 14.4558 15.1809 13.7461 14.3086 13.7461C13.4363 13.7461 12.7266 14.4558 12.7266 15.3281ZM14.3086 14.8008C14.5993 14.8008 14.8359 15.0374 14.8359 15.3281C14.8359 15.6189 14.5993 15.8555 14.3086 15.8555C14.0179 15.8555 13.7812 15.6189 13.7812 15.3281C13.7812 15.0374 14.0179 14.8008 14.3086 14.8008Z"></path>
+            </svg>
+                    </a>
+        </div>
+            </div>
+            <div class="header-cta"><a href="https://themeforest.net/item/baza-creative-multipurpose-wordpress-theme/33613349" target="_blank"><div class="d-inline-block elementor-button-link elementor-button elementor-size-md">Buy Now</div></a></div>        </div>
+
+    </div>
+</nav>
+<main id="site-content" class="flex-grow-1" role="main">
+    
+<article class="post-13 page type-page status-publish hentry" id="post-13">
+
+    <div class="post-inner">
+
+        
+<header class="entry-header header-group">
+
+    <div class="entry-header-inner">
+
+        
+            </div><!-- .entry-header-inner -->
+</header><!-- .entry-header -->
+
+        <div class="entry-content clearfix">
+            		<div data-elementor-type="wp-page" data-elementor-id="13" class="elementor elementor-13">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-b2573b0 elementor-section-height-min-height elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="b2573b0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-custom">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-45485f8" data-id="45485f8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ba15a5f elementor-widget elementor-widget-text-editor" data-id="ba15a5f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Fly on top						</div>
+				</div>
+				<div class="elementor-element elementor-element-efd92f9 elementor-widget elementor-widget-text-editor" data-id="efd92f9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Get on top of the web industry with Baza<span style="color: #155ce7;">.</span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-b29b28e elementor-widget elementor-widget-text-editor" data-id="b29b28e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Our web development agency will help you create an incredible website in no time and take your business to the next level. From layout to SEO. Perfection in everything.</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-9225cef elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9225cef" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-a5d6ef7" data-id="a5d6ef7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-f533901 elementor-tablet-align-center elementor-widget elementor-widget-button" data-id="f533901" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-xl elementor-animation-float" href="/contact-us">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Get started</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8f5722f" data-id="8f5722f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-028e230 elementor-widget elementor-widget-image" data-id="028e230" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="1024" height="1024" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-187-1024x1024.png" class="attachment-large size-large wp-image-26" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-187-1024x1024.png 1024w, https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-187-300x300.png 300w, https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-187-100x100.png 100w, https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-187-600x600.png 600w, https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-187-150x150.png 150w, https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-187-768x768.png 768w, https://demo.bazatheme.com/wp-content/uploads/2021/07/Group-187.png 1050w" sizes="(max-width: 1024px) 100vw, 1024px" />													</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-30f9c7d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="30f9c7d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-48150f9" data-id="48150f9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-80490be elementor-widget elementor-widget-image" data-id="80490be" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="128" height="128" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/list-search-1.png" class="attachment-large size-large wp-image-77" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/list-search-1.png 128w, https://demo.bazatheme.com/wp-content/uploads/2021/07/list-search-1-100x100.png 100w" sizes="(max-width: 128px) 100vw, 128px" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-5c6f2d2 elementor-widget elementor-widget-heading" data-id="5c6f2d2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Web Development</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-862fc09 elementor-widget elementor-widget-text-editor" data-id="862fc09" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-a9eae91 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a9eae91" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-71392fe" data-id="71392fe" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9ec5138 elementor-align-right elementor-widget elementor-widget-button" data-id="9ec5138" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact-us">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fas fa-arrow-right"></i>			</span>
+									<span class="elementor-button-text">Learn more</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f7ee3d1" data-id="f7ee3d1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ec4a573 elementor-widget elementor-widget-image" data-id="ec4a573" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="128" height="128" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/clipboard-1.png" class="attachment-large size-large wp-image-88" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/clipboard-1.png 128w, https://demo.bazatheme.com/wp-content/uploads/2021/07/clipboard-1-100x100.png 100w" sizes="(max-width: 128px) 100vw, 128px" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-32aeeec elementor-widget elementor-widget-heading" data-id="32aeeec" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">UX/UX Design</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-00a9592 elementor-widget elementor-widget-text-editor" data-id="00a9592" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-00b5fd5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="00b5fd5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-205b317" data-id="205b317" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3e47290 elementor-align-right elementor-widget elementor-widget-button" data-id="3e47290" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact-us">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fas fa-arrow-right"></i>			</span>
+									<span class="elementor-button-text">Learn more</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-8244627" data-id="8244627" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-45442ba elementor-widget elementor-widget-image" data-id="45442ba" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="128" height="128" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/popsicle-stick-1.png" class="attachment-large size-large wp-image-101" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/popsicle-stick-1.png 128w, https://demo.bazatheme.com/wp-content/uploads/2021/07/popsicle-stick-1-100x100.png 100w" sizes="(max-width: 128px) 100vw, 128px" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-49ee501 elementor-widget elementor-widget-heading" data-id="49ee501" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">SEO </h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a6df793 elementor-widget elementor-widget-text-editor" data-id="a6df793" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-68144b7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="68144b7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8872a7f" data-id="8872a7f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6bc9e9f elementor-align-right elementor-widget elementor-widget-button" data-id="6bc9e9f" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="/seo-services/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fas fa-arrow-right"></i>			</span>
+									<span class="elementor-button-text">Learn more</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6e3c735 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6e3c735" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d4eed73" data-id="d4eed73" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3f0c45f elementor-widget elementor-widget-image" data-id="3f0c45f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="927" height="1018" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/charecter88.png" class="attachment-large size-large wp-image-107" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/charecter88.png 927w, https://demo.bazatheme.com/wp-content/uploads/2021/07/charecter88-600x659.png 600w, https://demo.bazatheme.com/wp-content/uploads/2021/07/charecter88-273x300.png 273w, https://demo.bazatheme.com/wp-content/uploads/2021/07/charecter88-768x843.png 768w" sizes="(max-width: 927px) 100vw, 927px" />													</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-16c7155" data-id="16c7155" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-956b5db elementor-widget elementor-widget-text-editor" data-id="956b5db" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Who we are</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9ac0438 elementor-widget elementor-widget-heading" data-id="9ac0438" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">About our agency</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c9daaae elementor-widget elementor-widget-text-editor" data-id="c9daaae" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-4bd1b4c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4bd1b4c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-04fa98a" data-id="04fa98a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b462fbf elementor-widget elementor-widget-button" data-id="b462fbf" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-xl elementor-animation-float" href="/contact-us">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Get started</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-163302b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="163302b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1c8c978" data-id="1c8c978" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7070a1c elementor-widget elementor-widget-counter" data-id="7070a1c" data-element_type="widget" data-widget_type="counter.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-counter">
+			<div class="elementor-counter-title">Visitors on our site every mounth</div>			<div class="elementor-counter-number-wrapper">
+				<span class="elementor-counter-number-prefix"></span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="900" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number-suffix">K</span>
+			</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3ce25e6" data-id="3ce25e6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6b20422 elementor-widget elementor-widget-counter" data-id="6b20422" data-element_type="widget" data-widget_type="counter.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-counter">
+			<div class="elementor-counter-title">Satisfaction rate from our awesome customers</div>			<div class="elementor-counter-number-wrapper">
+				<span class="elementor-counter-number-prefix"></span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="98" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number-suffix">%</span>
+			</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-aad8371" data-id="aad8371" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6ef2f74 elementor-widget elementor-widget-counter" data-id="6ef2f74" data-element_type="widget" data-widget_type="counter.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-counter">
+			<div class="elementor-counter-title">Average increase in the conversion rate of our clients this month</div>			<div class="elementor-counter-number-wrapper">
+				<span class="elementor-counter-number-prefix"></span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="68" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number-suffix">%</span>
+			</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3d3b388 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d3b388" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eb10f2c" data-id="eb10f2c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-1d20826 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1d20826" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-958d975" data-id="958d975" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c2e6c1f elementor-widget elementor-widget-text-editor" data-id="c2e6c1f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Why us</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-67ee62a elementor-widget elementor-widget-heading" data-id="67ee62a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Customers choose us because we think about them first    </h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-0e56390 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0e56390" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e06aa91" data-id="e06aa91" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-45158b4 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="45158b4" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="180" height="180" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/discussion-1.png" class="elementor-animation-pulse-shrink attachment-full size-full wp-image-184" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/discussion-1.png 180w, https://demo.bazatheme.com/wp-content/uploads/2021/07/discussion-1-100x100.png 100w, https://demo.bazatheme.com/wp-content/uploads/2021/07/discussion-1-150x150.png 150w" sizes="(max-width: 180px) 100vw, 180px" /></figure><div class="elementor-image-box-content"><div class="elementor-image-box-title">Quick feedback</div><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-311995f elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="311995f" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="180" height="180" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/quarter-1.png" class="elementor-animation-pulse-shrink attachment-full size-full wp-image-198" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/quarter-1.png 180w, https://demo.bazatheme.com/wp-content/uploads/2021/07/quarter-1-100x100.png 100w, https://demo.bazatheme.com/wp-content/uploads/2021/07/quarter-1-150x150.png 150w" sizes="(max-width: 180px) 100vw, 180px" /></figure><div class="elementor-image-box-content"><div class="elementor-image-box-title">No missed deadlines</div><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-abf8b28" data-id="abf8b28" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-07f9f90 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="07f9f90" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="180" height="180" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/checkmark-1.png" class="elementor-animation-pulse-shrink attachment-full size-full wp-image-199" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/checkmark-1.png 180w, https://demo.bazatheme.com/wp-content/uploads/2021/07/checkmark-1-100x100.png 100w, https://demo.bazatheme.com/wp-content/uploads/2021/07/checkmark-1-150x150.png 150w" sizes="(max-width: 180px) 100vw, 180px" /></figure><div class="elementor-image-box-content"><div class="elementor-image-box-title">Qualified QA</div><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d20e241 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="d20e241" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="135" height="136" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/rocket-1.png" class="elementor-animation-pulse-shrink attachment-full size-full wp-image-200" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/rocket-1.png 135w, https://demo.bazatheme.com/wp-content/uploads/2021/07/rocket-1-100x100.png 100w" sizes="(max-width: 135px) 100vw, 135px" /></figure><div class="elementor-image-box-content"><div class="elementor-image-box-title">Individual approach</div><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-c89290f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c89290f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bfe8def" data-id="bfe8def" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-0a6b216 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0a6b216" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-14c88fd" data-id="14c88fd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ef835a2 elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="ef835a2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Ready to get your new website? </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-588c0cf elementor-widget__width-initial elementor-absolute elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="588c0cf" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="61" height="61" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/image-26.png" class="attachment-large size-large wp-image-226" alt="" />													</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2b0bf86" data-id="2b0bf86" data-element_type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-a23e443 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a23e443" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-0663513" data-id="0663513" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ba9c7b4 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="ba9c7b4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Our professional web designers and developers are ready to work with you. Get an awesome website in no time with Baza.						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-829b8fe" data-id="829b8fe" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2690aa4 elementor-align-right elementor-tablet-align-left elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="2690aa4" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-xl elementor-animation-float" href="/contact-us">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Get started</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d6e5ecc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6e5ecc" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8f02f7f" data-id="8f02f7f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-580e892 elementor-widget elementor-widget-text-editor" data-id="580e892" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Our portfolio</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-4be59e6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4be59e6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8303a27" data-id="8303a27" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-de0f080 elementor-widget elementor-widget-heading" data-id="de0f080" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">We are proud of our work and happy to show our case studies</h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-9fdc44e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9fdc44e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-custom">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bb6b71a" data-id="bb6b71a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-48f3f76 elementor-widget elementor-widget-image" data-id="48f3f76" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="/agency/">
+							<img loading="lazy" decoding="async" width="810" height="730" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/2422751-1.png" class="elementor-animation-float attachment-large size-large wp-image-246" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/2422751-1.png 810w, https://demo.bazatheme.com/wp-content/uploads/2021/07/2422751-1-600x541.png 600w, https://demo.bazatheme.com/wp-content/uploads/2021/07/2422751-1-300x270.png 300w, https://demo.bazatheme.com/wp-content/uploads/2021/07/2422751-1-768x692.png 768w" sizes="(max-width: 810px) 100vw, 810px" />								</a>
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-29da6eb elementor-widget elementor-widget-text-editor" data-id="29da6eb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Website design and development						</div>
+				</div>
+				<div class="elementor-element elementor-element-b496b1f elementor-widget elementor-widget-heading" data-id="b496b1f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Live Streaming Website</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3b83085 elementor-widget elementor-widget-image" data-id="3b83085" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="/agency/">
+							<img loading="lazy" decoding="async" width="811" height="774" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/3263722-1.png" class="elementor-animation-float attachment-large size-large wp-image-259" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/3263722-1.png 811w, https://demo.bazatheme.com/wp-content/uploads/2021/07/3263722-1-600x573.png 600w, https://demo.bazatheme.com/wp-content/uploads/2021/07/3263722-1-300x286.png 300w, https://demo.bazatheme.com/wp-content/uploads/2021/07/3263722-1-768x733.png 768w" sizes="(max-width: 811px) 100vw, 811px" />								</a>
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-75df4e9 elementor-widget elementor-widget-text-editor" data-id="75df4e9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Website design and development						</div>
+				</div>
+				<div class="elementor-element elementor-element-35da093 elementor-widget elementor-widget-heading" data-id="35da093" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Fashion Blogger Website</h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ea9c255" data-id="ea9c255" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6698bfb elementor-widget elementor-widget-image" data-id="6698bfb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="/agency/">
+							<img loading="lazy" decoding="async" width="887" height="872" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/3262174-1.png" class="elementor-animation-float attachment-large size-large wp-image-251" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/3262174-1.png 887w, https://demo.bazatheme.com/wp-content/uploads/2021/07/3262174-1-600x590.png 600w, https://demo.bazatheme.com/wp-content/uploads/2021/07/3262174-1-300x295.png 300w, https://demo.bazatheme.com/wp-content/uploads/2021/07/3262174-1-768x755.png 768w" sizes="(max-width: 887px) 100vw, 887px" />								</a>
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-6e7f9b3 elementor-widget elementor-widget-text-editor" data-id="6e7f9b3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Website design and development						</div>
+				</div>
+				<div class="elementor-element elementor-element-3dc2e15 elementor-widget elementor-widget-heading" data-id="3dc2e15" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Interior Designer Website</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-465a948 elementor-widget elementor-widget-image" data-id="465a948" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="/agency/">
+							<img loading="lazy" decoding="async" width="887" height="578" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/2733472-1.png" class="elementor-animation-float attachment-large size-large wp-image-260" alt="" srcset="https://demo.bazatheme.com/wp-content/uploads/2021/07/2733472-1.png 887w, https://demo.bazatheme.com/wp-content/uploads/2021/07/2733472-1-600x391.png 600w, https://demo.bazatheme.com/wp-content/uploads/2021/07/2733472-1-300x195.png 300w, https://demo.bazatheme.com/wp-content/uploads/2021/07/2733472-1-768x500.png 768w" sizes="(max-width: 887px) 100vw, 887px" />								</a>
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-cfe6197 elementor-widget elementor-widget-text-editor" data-id="cfe6197" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Website design and development						</div>
+				</div>
+				<div class="elementor-element elementor-element-bc983b4 elementor-widget elementor-widget-heading" data-id="bc983b4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Kids Sport website</h2>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-5518f8e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5518f8e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-42dd889" data-id="42dd889" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0895733 elementor-align-center elementor-widget elementor-widget-button" data-id="0895733" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="/agency/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fas fa-arrow-right"></i>			</span>
+									<span class="elementor-button-text">View all projects</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b939732 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b939732" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8fbec0f" data-id="8fbec0f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-d155c43 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d155c43" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2130c7e" data-id="2130c7e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a65ce8a elementor-widget elementor-widget-text-editor" data-id="a65ce8a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Testimonial</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9aeb739 elementor-widget elementor-widget-testimonial" data-id="9aeb739" data-element_type="widget" data-widget_type="testimonial.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-testimonial-wrapper">
+							<div class="elementor-testimonial-content">"I am happy that I chose Baza to work on the website for my company. Everything was done perfectly and on time. I would definitely recommend Baza and their team."</div>
+			
+						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-top">
+				<div class="elementor-testimonial-meta-inner">
+											<div class="elementor-testimonial-image">
+							<img loading="lazy" decoding="async" width="192" height="179" src="https://demo.bazatheme.com/wp-content/uploads/2021/07/handsome-young-businessman-shirt-eyeglasses-1.png" class="attachment-full size-full wp-image-304" alt="" />						</div>
+					
+										<div class="elementor-testimonial-details">
+														<div class="elementor-testimonial-name">Michael Smit</div>
+																						<div class="elementor-testimonial-job">Entrepreneur</div>
+													</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		        </div><!-- .entry-content -->
+
+        
+    </div><!-- .post-inner -->
+
+    <div class="section-inner clearfix"></div><!-- .section-inner -->
+
+    
+</article><!-- .post -->
+</main><!-- #site-content --><footer id="site-footer" role="contentinfo">
+
+    <div id="footer-wave"></div>
+
+    <div class="footer-bg">
+
+        <div class="footer-inner container-xl">
+
+            
+            <div class="footer-bottom">
+
+                <div class="footer-credits">
+
+                    <p class="footer-copyright">Copyright &copy;2024 Baza. All rights reserved. 
+                    </p><!-- .footer-copyright -->
+
+                </div><!-- .footer-credits -->
+
+                <nav class="footer-menu-wrapper" aria-label="Footer" role="navigation">
+                    <ul class="footer-menu">
+                        <li id="menu-item-7155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7155"><a target="_blank" rel="noopener" href="https://bazatheme.com">What’s New</a></li>
+<li id="menu-item-7152" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7152"><a href="/shop/">Sell Online</a></li>
+<li id="menu-item-7153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7153"><a href="/blog-one-column-with-sidebar/">Blog</a></li>
+<li id="menu-item-7154" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7154"><a href="/contact-us/">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+            </div><!-- .footer-bottom  -->
+
+        </div><!-- .footer-inner -->
+
+    </div>
+
+</footer><!-- #site-footer -->
+
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-187555911-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-187555911-1');
+		</script>
+
+		<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='e-animations-css' href='https://demo.bazatheme.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.21.8' type='text/css' media='all' />
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.3" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/demo.bazatheme.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.3" id="contact-form-7-js"></script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=8.8.5" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"ajaxurl":"https:\/\/demo.bazatheme.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=8.8.5" id="wc-order-attribution-js"></script>
+<script   type="text/javascript" src="https://stats.wp.com/e-202432.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
+<script   type="text/javascript" id="jetpack-stats-js-after">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"197769722\",\"post\":\"13\",\"tz\":\"0\",\"srv\":\"demo.bazatheme.com\",\"j\":\"1:13.3.1\"}") ]);
+_stq.push([ "clickTrackerInit", "197769722", "13" ]);
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1" id="jquery-numerator-js"></script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.21.8" id="elementor-webpack-runtime-js"></script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.8" id="elementor-frontend-modules-js"></script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script   type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},
+"version":"3.21.8","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"e_swiper_latest":true,"container_grid":true,"home_screen":true,"ai-layout":true},"urls":{"assets":"https:\/\/demo.bazatheme.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":13,"title":"Baza%20%E2%80%93%20Creative%20MultiPurpose%20WordPress%20Theme","excerpt":"","featuredImage":false}};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://demo.bazatheme.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.21.8" id="elementor-frontend-js"></script>
+<script src="//rum-static.pingdom.net/pa-61ad1a9c9034fb0011000440.js" async></script><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Nunito:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;display=swap" media="all" /></noscript>
+
+</body>
+</html>
+
+<!-- Dynamic page generated in 1.733 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2024-08-08 12:52:20 -->
+
+<!-- super cache -->
+<!-- plugin=object-cache-pro client=phpredis metric#hits=5940 metric#misses=325 metric#hit-ratio=94.8 metric#bytes=6384499 metric#prefetches=277 metric#store-reads=284 metric#store-writes=11 metric#store-hits=291 metric#store-misses=317 metric#sql-queries=10 metric#ms-total=1702.88 metric#ms-cache=54.46 metric#ms-cache-avg=0.1852 metric#ms-cache-ratio=3.2 sample#redis-hits=45627113 sample#redis-misses=27374129 sample#redis-hit-ratio=62.5 sample#redis-ops-per-sec=617 sample#redis-evicted-keys=0 sample#redis-used-memory=312810600 sample#redis-used-memory-rss=207716352 sample#redis-memory-fragmentation-ratio=0.7 sample#redis-connected-clients=4 sample#redis-tracking-clients=0 sample#redis-rejected-connections=0 sample#redis-keys=21151 -->
